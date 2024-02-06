@@ -1,0 +1,145 @@
+@charset "UTF-8";
+*  {
+  box-sizing: border-box;
+}
+body  {
+  /* background: pink; */
+   margin:0;
+   font-size: 15px;
+   border-top: 10px solid #616b07;
+   
+}
+/* header */
+.logo img  {
+  display:inline-block;
+  color:#616b07;
+ 
+}
+.olive  {
+  text-align: center;
+  margin:15px 0;
+
+}
+h1  {
+  margin:0;
+  text-align: center;
+}
+p  {
+  margin:0;
+  text-align: center;
+}
+.header  {
+  width: 1200px;
+  margin:0 auto;
+ 
+  
+}
+.header ul  {
+  display: flex;
+ 
+  
+}
+.header ul li  {
+  width: 200px;
+  text-align: center;
+  list-style: none;
+  border-right: 1px solid #ddd;
+  
+}
+.header ul li :first-child  {
+  border-left: 1px solid #ddd; 
+}
+a  {
+  text-decoration: none;
+  color:black;
+}
+.header ul li a  {
+  display: block;
+  transition: background .3s;
+}
+.header ul li a:hover  {
+  background: rgb(234, 229, 229);
+}
+.header-img img  {
+  display:inline-block;
+}
+.header-img  {
+  text-align: center;
+}
+/* container */
+.container  {
+  width: 1200px;
+  margin:0 auto;
+
+ 
+}
+
+.container-service h2  {
+ text-align: center;
+ margin-bottom: 20px;
+}
+.container-service .service img  {
+  margin-bottom: 20px;
+  width:100%;
+  height:250px;
+  object-fit: cover;
+}
+.container-service .service .title  {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.container-service .service .explain  {
+  margin-bottom: 20px;
+}
+.container-service .service a  {
+  background: #616b07;
+  color: #fff;
+  padding:15px 20px 12px;
+}
+.container-service .service a:hover  {
+  background: #616b07;
+  opacity: .7;
+}
+.container-service .service-block  {
+  display: flex;
+  justify-content: space-around;
+}
+.container-service .service  {
+  width: 300px;
+  text-align: center;
+}
+.footer  {
+  margin-top: 60px;
+  
+}
+.pp_link  {
+  text-align: right;
+  width: 1200px;
+  margin:0 auto;
+}
+.copy  {
+  text-align: center;
+  background: #616b07;
+  color:#fff;
+  font-size: 12px;
+  padding:10px 0;
+}
+.go-top  {
+  position: fixed;
+  bottom: 10px;
+  right:20px;
+  z-index: 9999;
+}
+.go-top a  {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background: #616b07;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  color:white;
+  text-decoration: none;
+ 
+}

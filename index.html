@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visit Provence</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body>
+  <script>
+ $(document).ready(function() {
+  var pagetop = $('.go-top');
+  $(window).scroll(function ()  {
+    if ($(this).scrollTop() > 200) {
+      pagetop.fadeIn();
+    } else {
+      pagetop.fadeOut();
+    }
+  });
+  pagetop.click(function()  {
+    $('body, html').animate({ scrollTop: 0 },500);
+    return false;
+  });
+ });
+</script>
+
+
+  <div class="header">
+  <div class="olive">
+  <img src="img/オリーブアイコン1 (1).svg" alt="olive" width="40"  height="40">
+</div>
+  <header><h1>Visit Provence</h1>
+  <p>Welcome To Provence</p>
+<ul>
+  <li><a href="">Home</a></li>
+  <li><a href="">To Visit</a></li>
+  <li><a href="">To Eat</a></li>
+  <li><a href="">To Activities</a></li>
+  <li><a href="">To Stay</a></li>
+  <li><a href="">Information</a></li>
+  </ul>
+</div>
+
+ <div class="container">
+
+  <div class="header-img">
+    <img src="img/gorde.jpg" alt="gorde" >
+  </div>
+  
+  <div class="container-service">
+    <h2>To Visit</h2>
+    <div class="service-block">
+    
+      <div class="service">
+      <img src="img/lav4530.jpg" alt="lavender">
+      <div class="title">Lavender</div>
+      <div class="explain">テキストテキストテキスト</div>
+      <a href="">詳しくはこちら</a>
+    </div>
+
+    <div class="service">
+      <img src="img/marche.jpg" alt="ラベンダー">
+      <div class="title">marchè</div>
+      <div class="explain">テキストテキストテキスト</div>
+      <a href="">詳しくはこちら</a>
+    </div>
+
+    <div class="service">
+      <img src="img/cafe1.jpg" alt="">
+      <div class="title">Cafe</div>
+      <div class="explain">テキストテキストテキスト</div>
+      <a href="">詳しくはこちら</a>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div class="go-top">
+  <a href="#">TOP</a>
+</div>
+
+<div class="footer" >
+  <div class="pp_link">
+    <a href="">個人情報保護方針</a>
+  </div>
+  <div class="copy">
+    &copy;Visit Provence
+  </div>
+</div>
+</body>
+</html>
